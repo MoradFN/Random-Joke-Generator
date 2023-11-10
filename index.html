@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="jokeGeneratorWrapper">
+      <span id="smiley"> &#128516;</span>
+      <h2>Random joke generator</h2>
+      <button
+        id="randomJokebtn"
+        onclick="getRandomJoke(document.getElementById('jokeAmount').value, 
+      document.getElementById('jokeSearch').value)"
+      >
+        Get Random Joke
+      </button>
+      <form id="amountForm">
+        <label id="amountInputLabel" for="jokeAmount">Number of jokes:</label>
+        <br />
+        <input type="number" id="jokeAmount" min="1" max="10" />
+      </form>
+      <form>
+        <label id="keywordInputLabel" for="jokeSearch"
+          >Find joke using a keyword</label
+        >
+        <br />
+        <input id="jokeSearch" type="text" />
+      </form>
+    </div>
+    <div id="randomJokeBoxWrapper">
+      <div id="joke"></div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

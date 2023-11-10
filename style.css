@@ -1,0 +1,82 @@
+body {
+  background-image: linear-gradient(to top left, #6e7b0f, #cb7d25);
+  height: 97vh;
+}
+#jokeGeneratorWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  background-color: #15161a;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+span {
+}
+#smiley {
+  font-size: 100px;
+}
+h1 {
+}
+h2 {
+  color: white;
+}
+
+button {
+}
+#randomJokebtn {
+}
+form {
+  margin: 5px;
+}
+#amountForm {
+  display: flex;
+  justify-content: center;
+}
+input {
+}
+label {
+  margin: 3px;
+  color: white;
+}
+
+br {
+}
+
+#amountInputLabel {
+}
+#jokeAmount {
+}
+
+#keywordInputLabel {
+}
+#jokeSearch {
+}
+
+#randomJokeBoxWrapper {
+}
+
+#joke {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 99vw;
+}
+p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 130px;
+  width: 47vw;
+  background-color: #15161a;
+  color: white;
+  border-radius: 10px;
+  margin: 0px 0px 5px 5px;
+  padding: 5px;
+}
+#errorTitle {
+}
+#errorJoke {
+  display: flex;
+  width: 80vw;
+}
